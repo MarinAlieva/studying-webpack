@@ -1,0 +1,26 @@
+{
+  "name": "studying-webpack",
+  "version": "1.0.0",
+  "description": "studying-webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "marinalieva@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "mini-css-extract-plugin": "^2.7.4",
+    "node-sass": "^8.0.0",
+    "sass-loader": "^13.2.0",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.76.2",
+    "webpack-cli": "^5.0.1"
+  }
+}
